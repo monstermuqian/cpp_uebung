@@ -26,7 +26,7 @@ int StringSearch::CalLength() {
 
 void StringSearch::print_len() {
 	int answer = StringSearch::CalLength();
-	cout << "你输入的这串狗屎中最长的子狗屎的长度是" << answer << endl;
+	cout << "你输入的这串字符中最长的子字符的长度是" << answer << endl;
 }
 
 void StringSearch::PalindromeSearch() {
